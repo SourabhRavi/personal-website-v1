@@ -84,27 +84,27 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
 
 11. Commit 
 
-   ```sh
-   git commit -am "changes"
-   ```
+    ```sh
+    git commit -am "changes"
+    ```
 
 12. Generate a full static production build
 
-   ```sh
-   gatsby build
-   ```
+    ```sh
+    gatsby build
+    ```
 
 13. Preview the site as it will appear once deployed
 
-   ```sh
-   npm run serve
-   ```
+    ```sh
+    npm run serve
+    ```
 
 14. Deploy
 
-   ```sh
-   npm run deploy
-   ```
+    ```sh
+    npm run deploy
+    ```
 
 ## 🎨 Color Reference
 
