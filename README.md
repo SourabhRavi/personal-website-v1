@@ -74,7 +74,7 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
    ```sh
    npm install gh-pages
    ```
-   
+
 10. Add changes in the working directory to the staging area
 
    ```sh
