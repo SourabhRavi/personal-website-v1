@@ -11,56 +11,99 @@
 ![demo](https://raw.githubusercontent.com/SourabhRavi/personal-website-v1/main/src/images/demo.png)
 
 ## 🚨 Forking this repo (please read!)
+ _**plagiarism is bad**_
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
-
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
-
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
-
-### TL;DR
-
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+Yes, you can fork this repo. Please give proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 
 ## 🛠 Installation & Set Up
 
-1. Install the Gatsby CLI
+# Steps to push to deployment
+
+  1. open git bash in your current project directory and use
 
    ```sh
-   npm install -g gatsby-cli
+   source ~/.nvm/nvm.sh
    ```
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+  2. nvm install node (version 16);
+
+  ```sh
+   nvm install 16
+   ```
+
+  3. if nvm isn't installed, install it first
 
    ```sh
-   nvm install
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
    ```
 
-3. Install dependencies
+  4. incase of any errors with graph-ql or anything, read the error log properly and if needed, use --legacy-peer-deps after any install command
+
+  ```sh
+  npm install --legacy-peer-deps
+  ```
+
+  5. Install yarn
+
+  ```sh
+  npm install -g yarn
+  ```
+
+  6. Install dependencies
+
+  ```sh
+  yarn
+  ```
+
+  6. Install Gatsby CLI
+
+  ```sh
+  npm install -g gatsby-cli
+  ```
+
+  7. Install dependencies
+
+  ```sh
+  npm install
+  ```
+
+  8. Install GitHub Pages
+
+  ```sh
+  npm install gh-pages
+  ```
+  [Remember: if any error and if needed, use --legacy-peer-deps with install command]
+
+  9. Add changes in the working directory to the staging area
+
+  ```sh
+  git add .
+  ```
+
+  10. Commit 
+
+  ```sh
+  git commit -am "changes"
+  ```
+
+  11. Generate a full static production build
+  
+  ```sh
+  gatsby build
+  ```
+
+  12. Preview the site as it will appear once deployed
 
    ```sh
-   yarn
-   ```
+  npm run serve
+  ```
 
-4. Start the development server
+  13. Deploy
 
-   ```sh
-   npm start
-   ```
+  ```sh
+  npm run deploy
+  ```
 
-## 🚀 Building and Running for Production
-
-1. Generate a full static production build
-
-   ```sh
-   npm run build
-   ```
-
-1. Preview the site as it will appear once deployed
-
-   ```sh
-   npm run serve
-   ```
 
 ## 🎨 Color Reference
 
@@ -74,5 +117,3 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 | Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
 | White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
 | Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
-
-## Please Refer to Steps-to-deploy.md incase of any errors while deploying

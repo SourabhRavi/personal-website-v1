@@ -1,33 +1,86 @@
 # Steps to push to deployment
 
-  - git clone
+  1. open git bash in your current project directory and use
 
-  - cd chandrikadeb7.github.io
-
-  - open git bash in your current project directory and paste
-  
    ```sh
    source ~/.nvm/nvm.sh
    ```
 
-  - nvm install node (version 16) [eg: nvm install 16]
+  2. nvm install node (version 16);
 
-  - incase of any errors with graph-ql or anything, read the error log properly and if needed, use --legacy-peer-deps after any install command [eg: npm install --legacy-peer-deps]
+  ```sh
+   nvm install 16
+   ```
 
-  - npm install -g yarn
+  3. if nvm isn't installed, install it first
 
-  - yarn
+   ```sh
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+   ```
 
-  - npm install -g gatsby-cli
+  4. incase of any errors with graph-ql or anything, read the error log properly and if needed, use --legacy-peer-deps after any install command
 
-  - npm install
+  ```sh
+  npm install --legacy-peer-deps
+  ```
 
-  - npm install gh-pages [remember: if any error and if needed, use --legacy-peer-deps with install command]
+  5. Install yarn
 
-  - git add .
+  ```sh
+  npm install -g yarn
+  ```
 
-  - git commit -am "changes"
+  6. Install dependencies
 
-  - gatsby build
+  ```sh
+  yarn
+  ```
 
-  - npm run deploy
+  6. Install Gatsby CLI
+
+  ```sh
+  npm install -g gatsby-cli
+  ```
+
+  7. Install dependencies
+
+  ```sh
+  npm install
+  ```
+
+  8. Install GitHub Pages
+
+  ```sh
+  npm install gh-pages
+  ```
+  [Remember: if any error and if needed, use --legacy-peer-deps with install command]
+
+  9. Add changes in the working directory to the staging area
+
+  ```sh
+  git add .
+  ```
+
+  10. Commit 
+
+  ```sh
+  git commit -am "changes"
+  ```
+
+  11. Generate a full static production build
+  
+  ```sh
+  gatsby build
+  ```
+
+  12. Preview the site as it will appear once deployed
+
+   ```sh
+  npm run serve
+  ```
+
+  13. Deploy
+
+  ```sh
+  npm run deploy
+  ```
