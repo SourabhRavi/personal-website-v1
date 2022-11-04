@@ -18,6 +18,8 @@
 
   - npm install
 
+  - npm install gh-pages [remember: if any error and if needed, use --legacy-peer-deps with install command]
+
   - git add .
 
   - git commit -am "changes"
