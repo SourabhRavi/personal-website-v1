@@ -4,7 +4,11 @@
 
   - cd chandrikadeb7.github.io
 
-  - source ~/.nvm/nvm.sh
+  - open git bash in your current project directory and paste
+  
+   ```sh
+   source ~/.nvm/nvm.sh
+   ```
 
   - nvm install node (version 16) [eg: nvm install 16]
 
