@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/SourabhRavi/v4/main/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/SourabhRavi/personal-website-v1/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   Sourabh Kumar Ravi - v1
