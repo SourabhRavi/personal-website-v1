@@ -6,7 +6,9 @@
 
   - source ~/.nvm/nvm.sh
 
-  - nvm install node (version 16)
+  - nvm install node (version 16) [eg: nvm install 16]
+
+  - incase of any errors with graph-ql or anything, read the error log properly and if needed, use --legacy-peer-deps after any install command [eg: npm install --legacy-peer-deps]
 
   - npm install -g yarn
 
