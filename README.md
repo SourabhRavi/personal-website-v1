@@ -19,8 +19,6 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
 
 # Steps to push to deployment
 
-# Steps to push to deployment
-
 1. open git bash in your current project directory and use
 
    ```sh
