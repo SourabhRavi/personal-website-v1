@@ -57,50 +57,50 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
    yarn
    ```
 
-6. Install Gatsby CLI
+7. Install Gatsby CLI
 
    ```sh
    npm install -g gatsby-cli
    ```
 
-7. Install dependencies
+8. Install dependencies
 
    ```sh
    npm install
    ```
 
-8. Install GitHub Pages
+9. Install GitHub Pages
 
    ```sh
    npm install gh-pages
    ```
    [Remember: if any error and if needed, use --legacy-peer-deps with install command]
 
-9. Add changes in the working directory to the staging area
+10. Add changes in the working directory to the staging area
 
    ```sh
    git add .
    ```
 
-10. Commit 
+11. Commit 
 
    ```sh
    git commit -am "changes"
    ```
 
-11. Generate a full static production build
+12. Generate a full static production build
 
    ```sh
    gatsby build
    ```
 
-12. Preview the site as it will appear once deployed
+13. Preview the site as it will appear once deployed
 
    ```sh
    npm run serve
    ```
 
-13. Deploy
+14. Deploy
 
    ```sh
    npm run deploy
