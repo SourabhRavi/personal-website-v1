@@ -78,7 +78,7 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
 10. Add changes in the working directory to the staging area
 
    ```sh
-   git add *.*
+   git add
    ```
 
 11. Commit 
