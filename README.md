@@ -70,6 +70,7 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
    ```
 
 9. Install GitHub Pages
+   [Remember: if any error and if needed, use --legacy-peer-deps with install command]
 
    ```sh
    npm install gh-pages
@@ -77,9 +78,9 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
 
 10. Add changes in the working directory to the staging area
 
-   ```sh
-   git add
-   ```
+    ```sh
+    git add
+    ```
 
 11. Commit 
 
